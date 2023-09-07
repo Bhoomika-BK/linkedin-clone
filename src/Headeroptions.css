@@ -1,0 +1,31 @@
+.headeroptions
+{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+   margin-left: 20px;
+   flex-wrap:wrap;
+
+   
+}
+.headericons
+{
+width: 25px !important;
+height:25px !important;
+}
+.headeroptions>p{
+    font-size: 13px;
+    margin:0;
+    padding: 0;
+    cursor:pointer;
+    color:gray;
+}
+.headeroption_icon
+{
+    height: 25px !important;
+    width:25px !important;
+}
+.headeroptions>p:hover{
+    color:black;
+    text-decoration: underline;
+}
